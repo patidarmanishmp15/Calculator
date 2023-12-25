@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(35, 34, 34);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-image: url(https://img.freepik.com/free-vector/digital-device-mockup_53876-89919.jpg);
+  height: 47em;
+  width: 43.9em;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+#Result {
+  background-color: gray;
+  height: 13rem;
+  width: 14.7rem;
+  margin-left: 3.3rem;
+  margin-top: -0.5rem;
+  box-shadow: 0px 0px 15px 0px lightgray;
+}
+#History {
+  background-color: rgb(157, 156, 156);
+  color: black;
+  width: 14.6rem;
+  height: 46%;
+  font-size: 28px;
+
+  display: flex;
+  align-items: end;
+  justify-content: end;
+
+  overflow: hidden;
+}
+
+#Answer {
+  background-color: lightgray;
+  color: black;
+  width: 14.6rem;
+  height: 54%;
+  font-size: 40px;
+
+  display: flex;
+  align-items: end;
+  justify-content: end;
+
+  overflow: hidden;
+}
+
+#NumPad {
+  background-color: black(62, 83, 90);
+  height: 17rem;
+  width: 14.7rem;
+  margin-left: 3.3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 5px 15px 0px rgb(0, 0, 0);
+}
+.btn {
+  background-color: rgb(70, 62, 62);
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 45px;
+  border-radius: 50%;
+  font-size: 23px;
+  font-family: cursive;
+  margin-top: 15px;
+  padding: 5px;
+}
